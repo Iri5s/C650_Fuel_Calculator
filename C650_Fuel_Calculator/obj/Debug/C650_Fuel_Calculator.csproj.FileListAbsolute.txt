@@ -1,0 +1,11 @@
+A:\_Dev\Xplane\C650_Fuel_Calculator\C650_Fuel_Calculator\bin\Debug\C650_Fuel_Calculator.exe.config
+A:\_Dev\Xplane\C650_Fuel_Calculator\C650_Fuel_Calculator\bin\Debug\C650_Fuel_Calculator.exe
+A:\_Dev\Xplane\C650_Fuel_Calculator\C650_Fuel_Calculator\bin\Debug\C650_Fuel_Calculator.pdb
+A:\_Dev\Xplane\C650_Fuel_Calculator\C650_Fuel_Calculator\obj\Debug\C650_Fuel_Calculator.csproj.AssemblyReference.cache
+A:\_Dev\Xplane\C650_Fuel_Calculator\C650_Fuel_Calculator\obj\Debug\C650_Fuel_Calculator.csproj.SuggestedBindingRedirects.cache
+A:\_Dev\Xplane\C650_Fuel_Calculator\C650_Fuel_Calculator\obj\Debug\C650_Fuel_Calculator.MainForm.resources
+A:\_Dev\Xplane\C650_Fuel_Calculator\C650_Fuel_Calculator\obj\Debug\C650_Fuel_Calculator.Properties.Resources.resources
+A:\_Dev\Xplane\C650_Fuel_Calculator\C650_Fuel_Calculator\obj\Debug\C650_Fuel_Calculator.csproj.GenerateResource.cache
+A:\_Dev\Xplane\C650_Fuel_Calculator\C650_Fuel_Calculator\obj\Debug\C650_Fuel_Calculator.csproj.CoreCompileInputs.cache
+A:\_Dev\Xplane\C650_Fuel_Calculator\C650_Fuel_Calculator\obj\Debug\C650_Fuel_Calculator.exe
+A:\_Dev\Xplane\C650_Fuel_Calculator\C650_Fuel_Calculator\obj\Debug\C650_Fuel_Calculator.pdb
