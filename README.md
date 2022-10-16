@@ -5,9 +5,9 @@
  
  To use: 
  
- Input your current fuel (either in LBS or KG).
- Input your planned Block fuel.
- Input todays weight for KG to Liter conversion.
+Input your current fuel (either in LBS or KG).
+Input your planned Block fuel.
+Input todays weight for KG to Liter conversion.
  
  ![image](https://user-images.githubusercontent.com/89160322/196013891-2492aa77-b793-4e6a-9b58-9e6324a26142.png)
 
