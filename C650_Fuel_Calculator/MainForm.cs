@@ -33,16 +33,12 @@ namespace C650_Fuel_Calculator
                         double diff = BlockFuel - CurrentFuel;
                         if (diff > 0)
                         {
-                            if (m == "lbs")
-                            { // Convert diff to KG
+                            if (m == "lbs") // Convert diff to KG
                                 diff /= 2.205;
-                            }
                             NeededFuelTxt.Text = Convert.ToString(Math.Ceiling(diff / KGtoLiter));
                         }
                         else
-                        {
-                            NeededFuelTxt.Text = "Error; Diff fuel is -";
-                        }
+                            NeededFuelTxt.Text = "Error; Diff fuel is negative";
                     }
                     catch
                     {
@@ -64,14 +60,10 @@ namespace C650_Fuel_Calculator
                     TB.Text = TB.Text.Replace("|", "");
                 try
                 {
-                    if (sender.Equals(CurrentFuelKGTxt))
-                    { // Entering fuel in lbs..
+                    if (sender.Equals(CurrentFuelKGTxt)) // Entering fuel in lbs..
                         CurrentFuelLBSTxt.Text = "|";
-                    }
                     else if (sender.Equals(CurrentFuelLBSTxt))
-                    {
                         CurrentFuelKGTxt.Text = "|";
-                    }
 
                     if (CurrentFuelLBSTxt.Text.Length > 2)
                         await Task.Run(() => DoCalc(Convert.ToInt32(CurrentFuelLBSTxt.Text), "lbs"));
