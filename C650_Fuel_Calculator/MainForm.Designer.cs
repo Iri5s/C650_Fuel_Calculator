@@ -76,7 +76,7 @@
             // NeededFuelLbl
             // 
             this.NeededFuelLbl.Font = new System.Drawing.Font("Lucida Handwriting", 14F, System.Drawing.FontStyle.Underline);
-            this.NeededFuelLbl.Location = new System.Drawing.Point(0, 170);
+            this.NeededFuelLbl.Location = new System.Drawing.Point(0, 171);
             this.NeededFuelLbl.Name = "NeededFuelLbl";
             this.NeededFuelLbl.Size = new System.Drawing.Size(369, 34);
             this.NeededFuelLbl.TabIndex = 0;
@@ -191,6 +191,7 @@
             this.Controls.Add(this.KGLbl);
             this.Controls.Add(this.CurrentFuelLbl);
             this.Controls.Add(this.BlockFuelLbl);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(385, 280);
