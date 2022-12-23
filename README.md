@@ -1,7 +1,7 @@
 # C650 Fuel Calculator
  A simple fuel calculator for the Hotstart Challenger 650 (XPlane) to help calculate the amount of fuel needing to be loaded.
  
- This is a thirdparty tool and is in no way associated with the creators of the Hotstart Challenger. Check out the aircraft here: https://www.x-aviation.com/catalog/product_info.php/take-command-hot-start-challenger-650-p-212
+ This is a thirdparty tool and is in not associated with the creators of the Hotstart Challenger. Check out the aircraft here: https://www.x-aviation.com/catalog/product_info.php/take-command-hot-start-challenger-650-p-212
  
  To use: 
  
