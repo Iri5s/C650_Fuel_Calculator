@@ -43,7 +43,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.GalLbl = new System.Windows.Forms.Label();
-            this.GalLiterTxt = new System.Windows.Forms.TextBox();
+            this.LbsGalTxt = new System.Windows.Forms.TextBox();
             this.BlockFuelLbl = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
@@ -200,7 +200,7 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.GalLbl);
-            this.panel2.Controls.Add(this.GalLiterTxt);
+            this.panel2.Controls.Add(this.LbsGalTxt);
             this.panel2.Controls.Add(this.KGLbl);
             this.panel2.Controls.Add(this.KGLiterTxt);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -219,19 +219,19 @@
             this.GalLbl.Text = "LBS/Gal";
             this.GalLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // GalLiterTxt
+            // LbsGalTxt
             // 
-            this.GalLiterTxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.GalLiterTxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.GalLiterTxt.Font = new System.Drawing.Font("Lucida Handwriting", 14F);
-            this.GalLiterTxt.Location = new System.Drawing.Point(212, 10);
-            this.GalLiterTxt.MaxLength = 6;
-            this.GalLiterTxt.Name = "GalLiterTxt";
-            this.GalLiterTxt.Size = new System.Drawing.Size(103, 33);
-            this.GalLiterTxt.TabIndex = 5;
-            this.GalLiterTxt.Text = "|";
-            this.GalLiterTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.GalLiterTxt.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.HandleTextChange);
+            this.LbsGalTxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.LbsGalTxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LbsGalTxt.Font = new System.Drawing.Font("Lucida Handwriting", 14F);
+            this.LbsGalTxt.Location = new System.Drawing.Point(212, 10);
+            this.LbsGalTxt.MaxLength = 6;
+            this.LbsGalTxt.Name = "LbsGalTxt";
+            this.LbsGalTxt.Size = new System.Drawing.Size(103, 33);
+            this.LbsGalTxt.TabIndex = 5;
+            this.LbsGalTxt.Text = "|";
+            this.LbsGalTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.LbsGalTxt.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.HandleTextChange);
             // 
             // BlockFuelLbl
             // 
@@ -304,7 +304,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label BlockFuelLbl;
         private System.Windows.Forms.Label GalLbl;
-        private System.Windows.Forms.TextBox GalLiterTxt;
+        private System.Windows.Forms.TextBox LbsGalTxt;
         private System.Windows.Forms.Panel panel3;
     }
 }

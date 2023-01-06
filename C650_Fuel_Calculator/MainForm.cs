@@ -23,19 +23,36 @@ namespace C650_Fuel_Calculator
                 Invoke(new Action(() => DoCalc(CurrentFuel, m)));
             else
             {
-                if (CurrentFuel > 2 && BlockFuelTxt.Text.Length > 2 && KGLiterTxt.Text.Length > 2)
+                if (CurrentFuel > 2 && BlockFuelTxt.Text.Length > 2 && KGLiterTxt.Text.Length > 2 || LbsGalTxt.Text.Length > 2)
                 {
                     try
                     {
                         int BlockFuel = Convert.ToInt32(BlockFuelTxt.Text);
-                        double KGtoLiter = Convert.ToDouble(KGLiterTxt.Text);
+                        double KGtoLiter = 0;
+                        double LbsToGal = 0;
+                        if (KGLiterTxt.Text.Length > 2)
+                             KGtoLiter = Convert.ToDouble(KGLiterTxt.Text);
+                        else if (LbsGalTxt.Text.Length > 2)
+                            LbsToGal = Convert.ToDouble(LbsGalTxt.Text);
 
                         double diff = BlockFuel - CurrentFuel;
                         if (diff > 0)
                         {
-                            if (m == "lbs") // Convert diff to KG
-                                diff /= 2.205;
-                            NeededFuelTxt.Text = Convert.ToString(Math.Ceiling(diff / KGtoLiter));
+                            if (KGtoLiter > 1)
+                            {
+                                if (m == "lbs") // Convert diff to KG
+                                    diff /= 2.205;
+                                NeededFuelTxt.Text = Convert.ToString(Math.Ceiling(diff / KGtoLiter));
+                            }
+                            else if (LbsToGal > 1)
+                            {
+                                if (m == "kg") // Convert diff to lbs
+                                    diff *= 2.205;
+                                NeededFuelTxt.Text = Convert.ToString(Math.Ceiling(diff / LbsToGal));
+                            }
+                            else
+                                NeededFuelTxt.Text = "Error!";
+
                         }
                         else
                             NeededFuelTxt.Text = "Error; Diff fuel is negative";
